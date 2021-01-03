@@ -13,9 +13,6 @@ export default class HomeComponent extends Vue {
   get users() {
     return UsersModule.users;
   }
-  mounted() {
-    console.log("this.users:::", this.users);
-  }
 
   removeUser(index: number) {
     UsersModule.removeUser(index);

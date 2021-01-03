@@ -13,7 +13,6 @@ export default class UserComponent extends Vue {
   }
 
   updateUser(property: string, newValue: string) {
-    console.log('changeee index::', this.userIndex);
     const payload = {
       property,
       userIndex: this.userIndex,

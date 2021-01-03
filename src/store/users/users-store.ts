@@ -54,7 +54,6 @@ class UsersStateModule extends VuexModule implements UsersState {
         ? { ...user, [payload.property]: payload.newValue }
         : user;
     });
-    console.log(this.users);
   }
 }
 

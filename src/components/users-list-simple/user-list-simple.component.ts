@@ -6,8 +6,4 @@ export default class UserListSimpleComponent extends Vue {
   @Prop({
     default: []
   }) users: User[];
-
-  mounted() {
-    console.log("this.simple users:::", this.users);
-  }
 }

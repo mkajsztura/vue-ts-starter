@@ -23,8 +23,4 @@ export default class UserListComponent extends Vue {
         return UsersModule.users;
     }
   }
-
-  mounted() {
-    console.log("this.users:::", this.users);
-  }
 }

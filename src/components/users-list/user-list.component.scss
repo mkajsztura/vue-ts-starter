@@ -1,0 +1,18 @@
+.users {
+  max-width: 600px;
+}
+
+.fade-leave-active,
+.fade-enter-active {
+  transition: opacity .5s ease-in-out;
+}
+
+.fade-leave-to,
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-to {
+  opacity: 1;
+}
+

@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "fullName": "Janek Kowalski",
+        "gender": "male"
+    },
+    {
+        "id": "2",
+        "fullName": "Andrzej Duda",
+        "gender": "male"
+    },
+    {
+        "id": "3",
+        "fullName": "Agata Duda",
+        "gender": "female"
+    },
+    {
+        "id": "4",
+        "fullName": "Joanna Nowak",
+        "gender": "female"
+    },
+    {
+        "id": "5",
+        "fullName": "Adam Małysz",
+        "gender": "male"
+    }
+]

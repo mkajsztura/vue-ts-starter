@@ -1,8 +1,10 @@
 <template>
   <div id="app" class="app-wrapper">
     <div id="nav">
+      <!-- link po ścieżce -->
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- link po nazwie w routerze -->
+      <router-link :to="{name: 'About'}">About</router-link>
     </div>
     <router-view />
   </div>

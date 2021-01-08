@@ -19,6 +19,7 @@
         <button class="btn btn-success" @click="isEditMode=false">OK</button>
       </template>
       <button class="btn btn-danger ml-1" @click="removeUser()">Usuń</button>
+      <router-link :to="'/user/' + user.id" class="btn btn-info ml-1">Sczegóły</router-link>
     </td>
   </tr>
 </template>

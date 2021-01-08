@@ -17,7 +17,7 @@
           </tr>
         </thead>
         <tbody>
-          <app-user v-for="(user, index) in users" :key="user.id" :user="user" :userIndex="index" />
+          <app-user v-for="(user, index) in users" :key="index+user.id" :user="user" :userIndex="index" />
         </tbody>
       </table>
       <div v-else>Brak użytkowników</div>

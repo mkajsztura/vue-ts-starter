@@ -38,6 +38,10 @@ class UsersStateModule extends VuexModule implements UsersState {
     return this.users.filter(user => user.gender === Gender.FEMALE);
   }
 
+  get userById(): User | any {
+    return (id: string) => this.users.find(user => user.id = id);
+  }
+
   @Mutation
   removeUser(indexToRemove: number) {
     this.users = this.users.filter((user, index) => index !== indexToRemove);
